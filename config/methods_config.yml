@@ -542,3 +542,20 @@ permissions:
       weight: 0
     android.permission.MODIFY_AUDIO_SETTINGS: 
       weight: 0
+  16:
+    android.permission.EXECUTE_APP_FUNCTIONS:
+      weight: 7.5
+    android.permission.REMOVE_ACCOUNTS:
+      weight: 7.5
+    android.permission.COPY_ACCOUNTS:
+      weight: 7.5
+    android.permission.INSTALL_DEPENDENCY_SHARED_LIBRARIES:
+      weight: 5
+    android.permission.RANGING:
+      weight: 5
+    android.permission.MANAGE_ADVANCED_PROTECTION_MODE:
+      weight: 5
+    android.permission.READ_INTRUSION_DETECTION_STATE:
+      weight: 5
+    android.permission.ENTER_TRADE_IN_MODE:
+      weight: 5
