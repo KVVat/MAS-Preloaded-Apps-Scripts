@@ -549,6 +549,10 @@ permissions:
       weight: 7.5
     android.permission.COPY_ACCOUNTS:
       weight: 7.5
+    android.permission.READ_SYSTEM_PREFERENCES:
+      weight: 7.5
+    android.permission.WRITE_SYSTEM_PREFERENCES:
+      weight: 7.5
     android.permission.INSTALL_DEPENDENCY_SHARED_LIBRARIES:
       weight: 5
     android.permission.RANGING:
