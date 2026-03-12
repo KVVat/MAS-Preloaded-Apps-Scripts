@@ -80,6 +80,8 @@ permissions:
       weight: 10    
     android.permission.MOUNT_UNMOUNT_FILESYSTEMS: 
       weight: 10 
+    android.permission.BIND_ACCESSIBILITY_SERVICE: 
+      weight: 10  
     android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS: 
       weight: 7.5   
     android.permission.READ_SMS: 
@@ -101,9 +103,7 @@ permissions:
     android.permission.ACCESS_FINE_LOCATION: 
       weight: 7.5   
     android.permission.ACCESS_BACKGROUND_LOCATION: 
-      weight: 7.5   
-    android.permission.BIND_ACCESSIBILITY_SERVICE: 
-      weight: 7.5    
+      weight: 7.5     
     android.permission.ACCESS_WIFI_STATE: 
       weight: 7.5    
     com.android.voicemail.permission.READ_VOICEMAIL: 
@@ -229,6 +229,8 @@ permissions:
       weight: 10    
     android.permission.PROVIDE_DEFAULT_ENABLED_CREDENTIAL_SERVICE: 
       weight: 10    
+    android.permission.BIND_ACCESSIBILITY_SERVICE: 
+      weight: 10
     android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS: 
       weight: 7.5   
     android.permission.READ_SMS: 
@@ -250,9 +252,7 @@ permissions:
     android.permission.ACCESS_FINE_LOCATION: 
       weight: 7.5   
     android.permission.ACCESS_BACKGROUND_LOCATION: 
-      weight: 7.5   
-    android.permission.BIND_ACCESSIBILITY_SERVICE: 
-      weight: 7.5    
+      weight: 7.5       
     android.permission.ACCESS_WIFI_STATE: 
       weight: 7.5    
     com.android.voicemail.permission.READ_VOICEMAIL: 
@@ -392,6 +392,8 @@ permissions:
       weight: 10
     android.permission.RECEIVE_SENSITIVE_NOTIFICATIONS:
       weight: 10
+    android.permission.BIND_ACCESSIBILITY_SERVICE: 
+      weight: 10
     android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS: 
       weight: 7.5   
     android.permission.READ_SMS: 
@@ -413,9 +415,7 @@ permissions:
     android.permission.ACCESS_FINE_LOCATION: 
       weight: 7.5   
     android.permission.ACCESS_BACKGROUND_LOCATION: 
-      weight: 7.5   
-    android.permission.BIND_ACCESSIBILITY_SERVICE: 
-      weight: 7.5    
+      weight: 7.5       
     android.permission.ACCESS_WIFI_STATE: 
       weight: 7.5    
     com.android.voicemail.permission.READ_VOICEMAIL: 
@@ -542,3 +542,52 @@ permissions:
       weight: 0
     android.permission.MODIFY_AUDIO_SETTINGS: 
       weight: 0
+  16:
+    android.permission.DYNAMIC_INSTRUMENTATION:
+      weight: 10
+    android.permission.EXECUTE_APP_FUNCTIONS:
+      weight: 7.5
+    android.permission.RANGING:
+      weight: 7.5
+    android.permission.COPY_ACCOUNTS:
+      weight: 7.5
+    android.permission.INSTALL_DEPENDENCY_SHARED_LIBRARIES:
+      weight: 7.5
+    android.permission.READ_SYSTEM_PREFERENCES:
+      weight: 7.5
+    android.permission.WRITE_SYSTEM_PREFERENCES:
+      weight: 7.5
+    android.permission.LISTEN_FOR_KEY_ACTIVITY:
+      weight: 7.5
+    android.permission.RESOLVE_COMPONENT_FOR_UID:
+      weight: 7.5
+    android.permission.MANAGE_ADVANCED_PROTECTION_MODE:
+      weight: 5
+    android.permission.READ_INTRUSION_DETECTION_STATE:
+      weight: 5
+    android.permission.ENTER_TRADE_IN_MODE:
+      weight: 5
+    android.permission.ADD_MIRROR_DISPLAY:
+      weight: 5
+    android.permission.BYPASS_CONCURRENT_RECORD_AUDIO_RESTRICTION:
+      weight: 5
+    android.permission.CAPTURE_CONSENTLESS_BUGREPORT_DELEGATED_CONSENT:
+      weight: 5
+    android.permission.BACKUP_HEALTH_CONNECT_DATA_AND_SETTINGS:
+      weight: 5
+    android.permission.MANAGE_INTRUSION_DETECTION_STATE:
+      weight: 5
+    android.permission.THREAD_NETWORK_TESTING:
+      weight: 2.5
+    android.permission.REMOVE_ACCOUNTS:
+      weight: 2.5
+    android.permission.BIND_POPULATION_DENSITY_PROVIDER_SERVICE:
+      weight: 2.5
+    android.permission.MANAGE_SECURE_LOCK_DEVICE:
+      weight: 2.5
+    android.permission.READ_SUBSCRIPTION_PLANS:
+      weight: 2.5
+    android.permission.READ_UPDATE_ENGINE_LOGS:
+      weight: 2.5
+    android.permission.MANAGE_DEVICE_POLICY_APP_FUNCTIONS:
+      weight: 2.5
