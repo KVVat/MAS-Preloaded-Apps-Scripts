@@ -591,7 +591,7 @@ permissions:
       weight: 2.5
     android.permission.MANAGE_DEVICE_POLICY_APP_FUNCTIONS:
       weight: 2.5
-17:
+  17:
     android.permission.ALLOW_CONTROL_SYSTEM_REQUIRED_PACKAGES:
       weight: 10
     android.permission.INJECT_KEY_EVENTS:
